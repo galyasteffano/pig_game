@@ -1,0 +1,9 @@
+tempfile.txt
+#*.txt ignores all .txt files
+.DS_Store #for Macs only
+*.zip
+*.gz
+log/*.log[0-9]
+assets/photoshop/
+assets/videos/
+!assets/videos/tour_*.mp4  #do not ignore this file in that folder
